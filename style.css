@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    padding: 20px;
+    background: #2160AD;
+    color: white;
+}
+.header .left{
+    width: 45%;
+    padding:10px 0 10px 20px ;
+}
+.header .batches{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    margin: 0 0 20px 0;
+}
+.header .batches .online .img{
+    margin-right: 24px;
+}
+.header button{
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+.header button img{
+    margin-left: 10px;
+}
+.right{
+    width: 50%;
+    padding: 0 80px;
+}
+.right .form{
+    padding: 36px 40px;
+    background: white;
+    width: 400px;
+    color: black;
+    border-radius: 10px;
+}
+.right .form .field{
+    width: 100%;
+    margin: 12px 0 0 0;
+}
+.right .form .field input{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+}
+.right .form .field span{
+    color: red;
+    font-size: 19px;
+}
+.right button{
+    width: 100%;
+    background: #2160AD;
+    color: white;
+}
+
+/* About Program */
+.about-program p, h1{
+    text-align: center;
+    margin: 10px 0  0;
+}
+.about-program .about-course .data{
+    width: 45%;
+    margin-right: 30px;
+}
+.about-course .data li{
+    margin-bottom:20px;
+    display: flex;
+    gap: 10px;
+}
+.about-course .image img{
+    width: 500px;
+    height: 300px;
+}
+
+/* Fullstack Webdevelopment */
+.fullstack{
+    padding: 20px 30px;
+    background: #E9EFF7;
+}
+.fullstack p, h1{
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+.fullstack .methods{
+    width: 500px;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.fullstack  .no1 h2{
+    font-weight: 500;
+    margin: 10px 0;
+}
+.fullstack .methods button{
+    padding: 8px 10px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.fullstack .topics .topic{
+    position: relative;
+    padding: 0 10px;
+    background: white;
+    width: 280px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+.fullstack .topics .topic .logo{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+
+}
+.fullstack .topics .topic h3{
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+.fullstack .topics .topic p{
+    text-align: left;
+    font-size: 13px;
+}
+.fullstack .technologies{
+    margin: 0 0 20px 0;
+}
+.fullstack .no2 .question{
+    width: 1000px;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px gray;
+    margin: auto;
+}
+.fullstack .no2 h5{
+    width: 21px;
+    height: 21px;
+    background: greenyellow;
+    border-radius: 2px;
+}
+.fullstack .no2 #show{
+    width: 1000px;
+    padding: 2px 10px 10px;
+    background: yellow;
+    margin-top: 2px;
+    margin: auto;
+}
+.fullstack .no3 .explanation .subdiv h3,p{
+    text-align: left;
+}
+
+.fullstack .no4 .tools{
+    margin: 25px 0;
+}
+.fullstack .no4 .tools img{
+    width: 140px;
+    height: 100px;
+    padding: 20px 40px;
+    background: black;
+    margin: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+.fullstack .no5 .projects {
+    display: flex;
+}
+.fullstack .no5 .projects .project{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 30px;
+    background: #d462ff;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.fullstack .no5 .projects .project h3{
+    font-weight: 400;
+    color:black;
+}
+
+/* Career */
+.career .range .salary{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 30px 0 10px;
+}
+.career .range .salary .photo{
+    width: 600px;
+    height: 300px;
+    margin: 20px 0;
+    transition: all 0.5s;
+}
+.career .range .graph{
+    width: 50%; 
+}
+.career .range .graph .img img{
+    width: 500px;
+}
+.career .graph .java{
+    width: 400px;
+    background-color: #2160AD;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.career .range .help{
+    width: 400px;
+    background: #d462ff;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* Career Growth Stories */
+.growth-stories{
+    background: #2091D0;
+    padding: 20px 30px;
+}
+.growth-stories .persons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 50px 10px 10px 10px;
+}
+.growth-stories .persons img{
+    border-radius: 50%;
+    width: 120px;
+    box-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua;
+}
